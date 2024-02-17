@@ -1,0 +1,44 @@
+@use "app";
+
+.TeamMembers {
+  width: 80%;
+  margin: auto;
+
+  h5 {
+    color: app.$text-primary;
+  }
+}
+.TeamMemberCard {
+  width: 85%;
+  margin: auto;
+  position: relative;
+  .card-content {
+    background-color: app.$text-secondary;
+
+    .cardName {
+      color: app.$text-primary;
+    }
+  }
+  .social-links {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+  }
+  .social-links a {
+    width: 50px;
+    height: 50px;
+    background-color: app.$text-primary;
+    padding: 10px;
+    padding-top: 5px;
+    margin: 5px;
+    color: app.$text-white;
+    border-radius: 5%;
+    display: none;
+  }
+  .TeamMemberCard :hover a {
+    display: block;
+  }
+  .TeamMemberCard:hover {
+    transform: scale(1.1, 1.1);
+  }
+}

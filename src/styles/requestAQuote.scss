@@ -1,0 +1,46 @@
+@use "app";
+
+.requestAQuote {
+  .requestAQuoteForm {
+    background-color: app.$text-primary;
+    input,
+    select,
+    textarea {
+      background-color: app.$text-secondary;
+      border: none;
+      color: app.$text-gray;
+    }
+    button {
+      background-color: app.$text-blue;
+      color: app.$text-white;
+    }
+  }
+  * :focus {
+    outline: none;
+  }
+  .heading1 {
+    color: app.$text-primary;
+  }
+  .icons {
+    color: app.$text-primary;
+  }
+  .requestQuestL {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    // height: 450px;
+    // width: 100%;
+  }
+  .Contact {
+    color: app.$text-primary;
+  }
+  .contactIcon {
+    color: app.$text-white;
+    background-color: app.$text-primary;
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+    padding-left: 17px;
+    font-size: 22px;
+  }
+}

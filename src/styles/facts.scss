@@ -1,0 +1,32 @@
+@use "app";
+
+.facts {
+  .happyClients,
+  .winAwards {
+    background-color: app.$text-primary;
+    color: app.$text-white;
+    padding: 10px;
+    .icon {
+      width: 60px;
+      height: 60px;
+      background-color: app.$text-white;
+      color: app.$text-primary;
+      border-radius: 5%;
+      padding: 15px;
+    }
+  }
+  .projectDone {
+    background-color: app.$text-secondary;
+    color: app.$text-blue;
+    padding: 10px;
+
+    .icon2 {
+      width: 60px;
+      height: 60px;
+      background-color: app.$text-primary;
+      color: app.$text-white;
+      border-radius: 5%;
+      padding: 15px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@use "app";
+
+.footer {
+  background-color: app.$text-blue;
+  color: app.$text-white;
+
+  .TFooter {
+    background-color: app.$text-primary;
+  }
+  .social-links li {
+    padding-top: 10px;
+  }
+  a:link {
+    color: app.$text-white;
+
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: app.$text-white;
+  }
+}

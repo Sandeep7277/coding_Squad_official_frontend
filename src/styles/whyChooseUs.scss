@@ -1,0 +1,36 @@
+@use "app";
+
+.WhyChooseUs {
+  .WhyChooseUsHeader {
+    h2 {
+      font-size: 1.3rem;
+      font-weight: bolder;
+      color: app.$text-primary;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: bolder;
+      color: app.$text-blue;
+    }
+  }
+  .WhyChooseUsCard {
+    .cardIcon {
+      color: app.$text-white;
+      background-color: app.$text-primary;
+      width: 60px;
+      height: 60px;
+      padding: 12px;
+      padding-left: 17px;
+      font-size: 22px;
+      // margin: auto;
+    }
+    .cardTitle {
+      font-size: 25px;
+      font-weight: bold;
+      padding-top: 20px;
+    }
+    .cardDescription {
+      color: app.$text-gray;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@use "app";
+.top-header-section {
+  background-color: app.$text-blue;
+  color: app.$text-white;
+  font-weight: 250;
+
+  .social-links li {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a:link {
+    color: app.$text-white;
+
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: app.$text-white;
+  }
+}
